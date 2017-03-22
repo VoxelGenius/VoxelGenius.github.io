@@ -1,0 +1,43 @@
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        font-family: Neucha;
+        letter-spacing: 3px; 
+        color: black;
+    }
+    .container {
+        border: solid 2px black;
+        padding: 10px;
+        width: 700px;
+        margin: 20px auto; 
+    }
+    .form-control {
+        width: 100%;
+        margin: 20px auto;
+        border: solid 2px lightgrey;
+       
+    }
+
+    .button {
+        border: solid 2px lightgrey;
+        width: 40px;
+        font-size: 16px;
+        padding: 5px 20px;
+        font-family: Voltaire;
+        text-align: center;
+        margin: 10px auto;
+        color: black;
+        box-sizing: content-box;
+        background-color: white;
+        cursor: pointer;
+    }
+    #paragraphs {
+        font-size: 20px;
+        font-family: Neucha;
+        letter-spacing: 3px;
+        font-weight: bold;
+        width: 700px;
+        margin: 5px auto;
+        color: black; 
+      }

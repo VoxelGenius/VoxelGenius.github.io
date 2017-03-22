@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site</title>
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Coming+Soon|Covered+By+Your+Grace|Inconsolata|Julius+Sans+One|Neucha|Patrick+Hand|Shadows+Into+Light|Shadows+Into+Light+Two|Voltaire" rel="stylesheet">
+	<meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="foundation/css/foundation.css">
+    <link rel="stylesheet" href="foundation/css/app.css">
+</head>
+<style type="text/css">
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        font-family: Neucha;
+        letter-spacing: 3px; 
+        color: black;
+    }
+    .container {
+        border: solid 2px black;
+        padding: 10px;
+        width: 700px;
+        margin: 20px auto; 
+    }
+    .form-control {
+        width: 100%;
+        margin: 20px auto;
+        border: solid 2px lightgrey;
+       
+    }
+
+    .button {
+        border: solid 2px lightgrey;
+        width: 40px;
+        font-size: 16px;
+        padding: 5px 20px;
+        font-family: Voltaire;
+        color: black;
+        text-align: center;
+        margin: 10px auto;
+        box-sizing: content-box;
+        background-color: white;
+        cursor: pointer;
+    }
+    #paragraphs {
+        font-size: 20px;
+        font-family: Neucha;
+        letter-spacing: 3px;
+        font-weight: bold;
+        width: 700px;
+        margin: 5px auto;
+        color: black; 
+      
+    }
+</style>
+<body>
+<div class="background-image">
+<div class="row">
+<div class="large-12 columns">
+<h1> Behold! the major keys of Dj Khaled for your day</h1>
+<div class="container">
+<form>
+    <input class="form-control" type="number" id="total" name="amount" placeholder="how many keys do you want to read?"><br>
+    <input class = "button" type="button"  onclick= "khaled()" value="Generate">
+</form>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="large-12 columns">
+<p id = "paragraphs"></p>
+</div>
+</div>
+</div>
+
+<script src = "khaled.js"></script>
+ <script src="foundation/js/vendor/jquery.js"></script>
+    <script src="foundation/js/vendor/what-input.js"></script>
+    <script src="foundation/js/vendor/foundation.js"></script>
+    <script src="foundation/js/app.js"></script>
+    <script type="text/javascript">
+    	$(document).foundation();
+    </script>
+</body>
+</html>
